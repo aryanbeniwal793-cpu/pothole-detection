@@ -1,0 +1,137 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+venv/
+newenv/
+ENV/
+env/
+.venv
+env.bak/
+venv.bak/
+
+# Large Model Files (prevents pushing large ML models)
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pth
+*.pt
+*.onnx
+*.tflite
+*.pb
+*.savedmodel/
+
+# Dataset folders (large training/test data)
+My Dataset/
+dataset/
+datasets/
+data/
+raw_data/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Temporary files
+*.log
+temp/
+tmp/
+tempCodeRunnerFile.py
+*.tmp
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.lnk
+
+# Project specific
+artifacts/
+*.csv
+predictions/
+results/
+logs/
+
+# Public/Private keys (security)
+*.pub
+public.pub
+private.key
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Miscellaneous
+.project
+.pydevproject
+.settings/
+
+# IDE project settings
+.spyproject/
+.idea/
